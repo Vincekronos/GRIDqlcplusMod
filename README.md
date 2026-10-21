@@ -1,3 +1,7 @@
+# I am trying to mod GRIDqlc to use it as a lighting controller while DJing, but i still have to figure out how all of this works. I am in no way a professional with this coding stuff, so this might get complicated. I probably won't know exactly, what i'm doing, so proceed at your own risk ig
+
+
+
 <p align="center">
   <a href="https://www.qlcplus.org/">
     <img src="resources/icons/png/qlcplus.png" alt="QLC+ Logo" height="60" />
