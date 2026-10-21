@@ -23,3 +23,6 @@ Given the above, the guidelines you are invited to follow are:
 
 In general there are cases and cases. If you changed just a few lines of code, most likely the review will be quick and the possibility to be merged are high.
 However, if you changed dozens or hundreds of lines, all the above are applied. The more you explain what you did and why you did it, the less it will take for a review and an eventual discussion.
+
+
+SINCE I MODDED THIS, I DONT CARE, IF THE CODE IS GOOD. I JUST WANT IT TO RUN

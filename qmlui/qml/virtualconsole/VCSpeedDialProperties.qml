@@ -68,6 +68,8 @@ Rectangle
                             id: speedModel
                             ListElement { mLabel: qsTr("(Not sent)"); mValue: VCSpeedDial.None }
                             ListElement { mLabel: qsTr("0"); mValue: VCSpeedDial.Zero }
+                            ListElement { mLabel: qsTr("1/64"); mValue: VCSpeedDial.OneSixtyFour }
+                            ListElement { mLabel: qsTr("1/32"); mValue: VCSpeedDial.OneThirtyTwo }
                             ListElement { mLabel: qsTr("1/16"); mValue: VCSpeedDial.OneSixteenth }
                             ListElement { mLabel: qsTr("1/8"); mValue: VCSpeedDial.OneEighth }
                             ListElement { mLabel: qsTr("1/4"); mValue: VCSpeedDial.OneFourth }

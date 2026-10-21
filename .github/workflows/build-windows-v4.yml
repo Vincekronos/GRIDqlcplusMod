@@ -9,7 +9,7 @@ on:
 jobs:
   build-windows-v4:
     runs-on: windows-latest
-    name: Build QLC+ 4.14 Windows Installer
+    name: Build QLC+ 4.14.vincekronos Windows Installer
     
     env:
       CI_REPO_SLUG: ${{ github.repository }}

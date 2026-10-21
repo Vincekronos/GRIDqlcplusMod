@@ -37,7 +37,7 @@ VCWidgetItem
     property var tapHistory: []
 
     property color activeColor: "green"
-    property var speedLabels: [ "", "", "1/16", "1/8", "1/4", "1/2", "1", "2", "4", "8", "16" ]
+    property var speedLabels: [ "", "", "1/64", "1/32", "1/16", "1/8", "1/4", "1/2", "1", "2", "4", "8", "16" ]
 
     property int currTime: speedObj ? speedObj.currentTime : 0
 
@@ -148,6 +148,35 @@ VCWidgetItem
                 }
             }
         }
+
+        GenericButton
+        {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            label: "1/64"
+            visible: speedObj ? speedObj.visibilityMask & VCSpeedDial.Beats : false
+            bgColor: speedObj ? (speedObj.currentFactor === VCSpeedDial.OneSixtyFour ? speedRoot.activeColor : UISettings.bgControl) : UISettings.bgControl
+            onClicked:
+            {
+                if (speedObj)
+                    speedObj.currentFactor = VCSpeedDial.OneSixtyFour
+            }
+        }
+
+        GenericButton
+        {
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            label: "1/32"
+            visible: speedObj ? speedObj.visibilityMask & VCSpeedDial.Beats : false
+            bgColor: speedObj ? (speedObj.currentFactor === VCSpeedDial.OneThirtyTwo ? speedRoot.activeColor : UISettings.bgControl) : UISettings.bgControl
+            onClicked:
+            {
+                if (speedObj)
+                    speedObj.currentFactor = VCSpeedDial.OneThirtyTwo
+            }
+        }
+
 
         GenericButton
         {
